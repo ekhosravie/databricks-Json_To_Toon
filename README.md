@@ -106,11 +106,12 @@ The script automatically verifies conversion accuracy:
 Original JSON keys: ['users']
 Reconstructed from TOON keys: ['users']
 Match: True 
-📦 Requirements
+
+Requirements
 pyspark >= 3.0
 delta >= 1.0
 python >= 3.8
-🛠️ Installation
+Installation
 
 Clone this repository
 Run in a Databricks notebook or Spark environment
@@ -121,6 +122,7 @@ The script automatically creates the Delta table in the default schema
  Sample data inserted into Delta table
 
  Delta Table Content:
+ 
 +----------+------------------+------------------+-----+-----+
 |id        |json_format       |toon_format       |...  |...  |
 +----------+------------------+------------------+-----+-----+
